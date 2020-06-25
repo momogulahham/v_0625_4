@@ -26,6 +26,7 @@ namespace v_0625_4
         {
             int a = 1;
             MessageBox.Show("" + (10 / a));
+            mag.Visible = false;
         }
     }
 }
