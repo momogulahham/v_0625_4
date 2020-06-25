@@ -16,5 +16,16 @@ namespace v_0625_4
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            int a = 1;
+            MessageBox.Show("" + (10 / a));
+        }
     }
 }
